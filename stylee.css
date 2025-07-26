@@ -92,3 +92,14 @@ margin: 10px;
       opacity: 1;
     }
   }
+  @media screen and (max-width:400px){
+    img{
+      width: 300px;
+    }
+    .project1{
+      width: 350px;
+    }
+    .project2{
+      width: 350px;
+    }
+  }
