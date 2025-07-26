@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Regular.woff2') format('woff2'),
+         url('./fonts/Vazir-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Bold.woff2') format('woff2'),
+         url('./fonts/Vazir-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  *{
+    font-family: 'Vazir', sans-serif;
+  }
+  body{
+    background-image: url(programmer-working-at-computer-min.jpg);
+    background-size: cover;
+  }
+  
+  img{
+    max-width: 400px;
+  }
+  .aa{
+    color:black;
+    transition: all .3s ease;
+        animation: fadeIn 1.2s ease-in forwards;
+margin: 20px;
+
+  }
+  .aa:hover{
+    color:rgb(3, 174, 200);
+    font-size: 25px;
+    margin:10px
+  }
+  .mooz{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    font-weight: 500;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+    padding: 6px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    margin: 5px;
+    text-shadow: 3px 3px 6px aliceblue;
+    border: solid 5px aliceblue;
+   transition: all 1s ease-in-out;
+
+    
+  }
+  
+ 
+  
+  .navv{
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin:5px auto;
+    font-weight: 500;
+    border: black solid 5px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+       transition: all 1s ease-in-out;
+      max-height:200px ;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-direction: column;
+    padding:10px;
+     opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  }
+  .question{
+    direction: rtl;
+    width: 700px;
+    margin-left:auto;
+    background-color: goldenrod;
+    border-radius:20px ;
+    overflow: auto;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+     opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+   margin-top: 10px;
+      transition: all 1s ease-in-out;
+
+   border: black solid 5px;
+  }
+  .question2{
+    direction: rtl;
+    width: 700px;
+    margin-right:auto;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+     opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+    background-color: goldenrod;
+    border-radius:20px ;
+    overflow: auto;
+   margin-top: 10px;
+   
+   border: black solid 5px;
+   transition: all 1s ease-in-out;
+  }
+  .question2:hover{
+   transform: translateY(-5px);
+  box-shadow: 0 10px 20px aqua;
+  border: 5px aqua solid;
+  }
+  .question:hover{
+     transform: translateY(-5px);
+  box-shadow: 0 10px 20px aqua;
+
+  border: 5px aqua solid;
+  }
+  .navv:hover{
+     transform: translateY(-5px);
+  box-shadow: 0 10px 20px aqua;
+
+  border: 5px aqua solid;
+  }
+  .mooz:hover{
+     transform: translateY(-5px);
+  box-shadow: 0 10px 20px aqua;
+
+  border: 5px aqua solid;
+  }
+   @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width:400px){
+    .mooz{
+      width: 100%;
+      width: 680px;
+    }
+    .navv{
+      width: 100%;
+      width: 680px;
+    }
+  }

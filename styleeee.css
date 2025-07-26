@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Regular.woff2') format('woff2'),
+         url('./fonts/Vazir-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Bold.woff2') format('woff2'),
+         url('./fonts/Vazir-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  *{
+    font-family:'Vazir', sans-serif;;
+  }
+  body{
+    direction: rtl;
+    background-image: url(download\ \(2\).jfif);
+
+  }
+  .biography{
+    background-color: aqua;
+    max-width: 800px;
+        text-align: center;
+    margin:0 auto;
+    border-radius: 20px;
+    border: 5px solid rgb(233, 11, 11);
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+   text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+   transition: all 1.2s ease-in-out;
+  }
+  .biography:hover{
+        outline: 5px solid aqua;
+     transform: scale(1.01);
+    box-shadow: 5px 10px 15px red;
+    transition: all 0.8s ease;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
