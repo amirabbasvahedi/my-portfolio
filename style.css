@@ -123,10 +123,32 @@ margin: 20px;
   @media screen and (max-width:400px){
     .mooz{
       width: 100%;
-      width: 680px;
+      margin: 0 auto;
+      font-size: 20px;
+    
     }
     .navv{
-      width: 100%;
-      width: 680px;
+      
+      width:100%;
+      width: 670px;
+      font-size: 1.3em;
+      padding: 20px;
+      font-weight: 700;
+      gap:20px
+    }
+    .question{
+      
+      width: 520px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
     }
   }
+ #ali{
+  color:aqua;
+  background-color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+ }
