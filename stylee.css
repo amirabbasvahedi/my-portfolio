@@ -1,21 +1,4 @@
-@font-face {
-    font-family: 'Vazir';
-    src: url('./fonts/Vazir-Regular.woff2') format('woff2'),
-         url('./fonts/Vazir-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Vazir';
-    src: url('./fonts/Vazir-Bold.woff2') format('woff2'),
-         url('./fonts/Vazir-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-  }
-  *{
-    font-family: 'Vazir', sans-serif;
-  }
+
   img{
     width: 100%;
     height: auto;
